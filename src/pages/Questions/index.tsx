@@ -6,19 +6,6 @@ import data from "./data.json";
 import { IAnswer } from "../Result";
 import { useNavigate } from "react-router-dom";
 
-interface IOptions {
-  a: string;
-  b: string;
-  c: string;
-  d: string;
-}
-
-interface IData {
-  id: string;
-  text: string;
-  options: IOptions;
-}
-
 const Questions = () => {
   const navigate = useNavigate();
   const [result, setResult] = useState<IAnswer[]>([]);
@@ -44,12 +31,21 @@ const Questions = () => {
     navigate("/result");
   };
 
-  const currentData: IData[] = data as IData[];
   const shuffleData = useMemo(() => {
-    return shuffle(currentData);
-  }, [currentData]);
+    return shuffle(data).map((item) => {
+      const newOptions = Object.entries(item.options).map(([ans, text]) => ({
+        ans,
+        text,
+      }));
 
-  const isDisabled = result.length !== currentData.length;
+      return {
+        ...item,
+        options: shuffle(newOptions),
+      };
+    });
+  }, []);
+
+  const isDisabled = result.length !== data.length;
 
   return (
     <div className="container pt-8 p-5 mx-auto">
@@ -59,7 +55,7 @@ const Questions = () => {
         </div>
 
         <div className="mt-12">
-          {shuffleData.map((item) => {
+          {shuffleData.map((item, index) => {
             const activeItem = result.find((i) => item.id == i.id);
 
             return (
@@ -67,63 +63,30 @@ const Questions = () => {
                 <Row gutter={[24, 24]}>
                   <Col className="gutter-row" span={24}>
                     <Typography className="font-bold">
-                      {item.id} {item.text}
+                      {index + 1}: {item.text}
                     </Typography>
                   </Col>
 
                   <Col span={24}>
                     <Row gutter={[16, 16]}>
-                      <Col span={12}>
-                        <Button
-                          type={
-                            activeItem?.answer === "a" ? "primary" : "default"
-                          }
-                          size="large"
-                          className="!w-full whitespace-break-spaces text-sm"
-                          onClick={() => handleOnSelect("a", item.id)}
-                        >
-                          {item.options.a}
-                        </Button>
-                      </Col>
-
-                      <Col span={12}>
-                        <Button
-                          type={
-                            activeItem?.answer === "b" ? "primary" : "default"
-                          }
-                          size="large"
-                          className="!w-full whitespace-break-spaces text-sm"
-                          onClick={() => handleOnSelect("b", item.id)}
-                        >
-                          {item.options.b}
-                        </Button>
-                      </Col>
-
-                      <Col span={12}>
-                        <Button
-                          type={
-                            activeItem?.answer === "c" ? "primary" : "default"
-                          }
-                          size="large"
-                          className="!w-full whitespace-break-spaces text-sm"
-                          onClick={() => handleOnSelect("c", item.id)}
-                        >
-                          {item.options.c}
-                        </Button>
-                      </Col>
-
-                      <Col span={12}>
-                        <Button
-                          type={
-                            activeItem?.answer === "d" ? "primary" : "default"
-                          }
-                          size="large"
-                          className="!w-full whitespace-break-spaces text-sm"
-                          onClick={() => handleOnSelect("d", item.id)}
-                        >
-                          {item.options.d}
-                        </Button>
-                      </Col>
+                      {item.options.map((ops) => {
+                        return (
+                          <Col span={12} key={ops.ans}>
+                            <Button
+                              type={
+                                activeItem?.answer === ops.ans
+                                  ? "primary"
+                                  : "default"
+                              }
+                              size="large"
+                              className="!w-full whitespace-break-spaces text-sm"
+                              onClick={() => handleOnSelect(ops.ans, item.id)}
+                            >
+                              {ops.text}
+                            </Button>
+                          </Col>
+                        );
+                      })}
                     </Row>
                   </Col>
                 </Row>

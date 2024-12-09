@@ -106,7 +106,7 @@ const Result = () => {
         </div>
 
         <div className="mt-12">
-          {data.map((item) => {
+          {data.map((item, index) => {
             const currentResult = result.find((it) => it.id === item.id);
             const currentAnswer = answers.find((it) => it.id === item.id);
             const correct = currentResult?.answer === currentAnswer?.answer;
@@ -115,7 +115,9 @@ const Result = () => {
               <div key={item.id}>
                 <Row gutter={[24, 24]}>
                   <Col className="gutter-row" span={24}>
-                    <Typography className="font-bold">- {item.text}</Typography>
+                    <Typography className="font-bold">
+                      {index + 1}: {item.text}
+                    </Typography>
                   </Col>
 
                   <Col span={24}>
@@ -131,7 +133,7 @@ const Result = () => {
                               : "default"
                           }
                         >
-                          a. {item.options.a}
+                          {item.options.a}
                         </Button>
                       </Col>
 
@@ -146,7 +148,7 @@ const Result = () => {
                               : "default"
                           }
                         >
-                          b. {item.options.b}
+                          {item.options.b}
                         </Button>
                       </Col>
 
@@ -161,7 +163,7 @@ const Result = () => {
                               : "default"
                           }
                         >
-                          c. {item.options.c}
+                          {item.options.c}
                         </Button>
                       </Col>
 
@@ -176,7 +178,7 @@ const Result = () => {
                               : "default"
                           }
                         >
-                          d. {item.options.d}
+                          {item.options.d}
                         </Button>
                       </Col>
                     </Row>
