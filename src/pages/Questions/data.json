@@ -1,0 +1,602 @@
+[
+  {
+    "id": "Câu 1",
+    "text": "___________ is a document which specifies the contents of any form of packaging, e.g. boxes, containers, cartons, without indicating the value of the goods shipped.",
+    "options": {
+      "a": "Export license",
+      "b": "Packing list",
+      "c": "Certificate of origin",
+      "d": "Customs invoice"
+    }
+  },
+  {
+    "id": "Câu 2",
+    "text": "___________ is a mode of shipping when one person's shipment takes up a full container.",
+    "options": {
+      "a": "LCL",
+      "b": "EDI",
+      "c": "FCL",
+      "d": "VAS"
+    }
+  },
+  {
+    "id": "Câu 3",
+    "text": "___________ means packaging material into smaller quantities by means of thin, transparent plastic material that tightly covers the thing that it is wrapped around, used for protecting goods when they are being transported or sold. (Quá trình bọc một vật thể trong một màng nhựa sau đó được nung nóng để co lại chặt xung quanh vật thể đó.)",
+    "options": {
+      "a": "Polybagging",
+      "b": "Kitting",
+      "c": "Shrink-wrapping",
+      "d": "Crating"
+    }
+  },
+  {
+    "id": "Câu 4",
+    "text": "___________ is a framework that carries a wheel set, attached to a vehicle so that it can move on rail.",
+    "options": {
+      "a": "Tarpaulin",
+      "b": "Lashing device",
+      "c": "Bogie (toa móc)",
+      "d": "Spreader beam"
+    }
+  },
+  {
+    "id": "Câu 5",
+    "text": "___________ is designed to store pallets in a mechanical and functional way using forklifts. These forklifts access goods through aisles parallel to the racks. (là loại kệ Pallet được thiết kế để lưu trữ Pallet theo cách cơ học và cơ năng bằng cách sử dụng xe nâng hàng.)",
+    "options": {
+      "a": "Unloading bay",
+      "b": "Pallet tank",
+      "c": "APR (adjustable pallet racking)",
+      "d": "Roll-cage pallet"
+    }
+  },
+  {
+    "id": "Câu 6",
+    "text": "___________ means reducing costs per unit by increasing production. (là lợi thế về chi phí mà các công ty có được khi tăng sản lượng sản xuất và giảm chi phí.)",
+    "options": {
+      "a": "Inventory management",
+      "b": "Procurement",
+      "c": "Economies of scale (kinh tế quy mô)",
+      "d": "Factory gate pricing"
+    }
+  },
+  {
+    "id": "Câu 7",
+    "text": "___________ is a large package of press-packed goods (often raw material), which is tightly bound, wrapped, and banded. (Một gói lớn vật liệu nén chặt được buộc an toàn bằng dây, thường được gói trong giấy.)",
+    "options": {
+      "a": "Sack",
+      "b": "Bale",
+      "c": "Barrel",
+      "d": "Cask"
+    }
+  },
+  {
+    "id": "Câu 8",
+    "text": "___________ is the process in which goods are brought together to form vehicle loads and are then loaded onto vehicles for onward dispatch.",
+    "options": {
+      "a": "Collation",
+      "b": "Marshalling (sự dồn toa)",
+      "c": "Order picking",
+      "d": "Breaking bulk"
+    }
+  },
+  {
+    "id": "Câu 9",
+    "text": "The process of overseeing and controlling the movement of goods in a company, from the time they are ordered to the time they are sold is called ___________.",
+    "options": {
+      "a": "Factory gate pricing",
+      "b": "Procurement",
+      "c": "Inventory management (quản lý tồn kho)",
+      "d": "Economies of scale"
+    }
+  },
+  {
+    "id": "Câu 10",
+    "text": "___________ is a certificate prepared by the shipper or consignor which states that hazardous goods are handled according to international shipping regulations.",
+    "options": {
+      "a": "Documents against payment (D/P)",
+      "b": "Certificate of origin",
+      "c": "Ex works (EWX)",
+      "d": "Dangerous goods declaration (tờ khai hàng hóa nguy hiểm)"
+    }
+  },
+  {
+    "id": "Câu 11",
+    "text": "___________ is a specific document required by customs in some countries when importing goods. It includes more details than a commercial invoice.",
+    "options": {
+      "a": "Pro forma invoice",
+      "b": "Export license",
+      "c": "Customs invoice (hóa đơn hải quan)",
+      "d": "Open account"
+    }
+  },
+  {
+    "id": "Câu 12",
+    "text": "___________ freight transport refers to the transportation of goods in the same loading unit or vehicle using different modes of transport. The handling of the freight itself is not necessary when changing modes.",
+    "options": {
+      "a": "Piggyback",
+      "b": "Single wagon",
+      "c": "Intermodal freight transport (vận tải đa phương thức)",
+      "d": "Block train"
+    }
+  },
+  {
+    "id": "Câu 13",
+    "text": "___________ is a system of transporting cargo in separate pieces instead of containers. It is typically used for individual items that are large and heavy in size and weight.",
+    "options": {
+      "a": "Transshipment",
+      "b": "Break-bulk (hàng quá khổ)",
+      "c": "Cross-docking",
+      "d": "Order picking"
+    }
+  },
+  {
+    "id": "Câu 14",
+    "text": "___________ is a type of freight traffic in which a train is formed out of individual wagons or sets of wagons which have different origins and different destinations.",
+    "options": {
+      "a": "Block train",
+      "b": "Multiple wagon",
+      "c": "Block wagon",
+      "d": "Single wagon (toa lẻ)"
+    }
+  },
+  {
+    "id": "Câu 15",
+    "text": "___________ is the excess inventory in the facility after the primary storage locations are filled. This is typically not available to directly fulfill orders but is used to replenish primary locations when they drop below a certain threshold.",
+    "options": {
+      "a": "Supply",
+      "b": "Back-up storage",
+      "c": "Replenishment",
+      "d": "Buffer stock"
+    }
+  },
+  {
+    "id": "Câu 16",
+    "text": "___________ is a special kind of invoice sometimes required by the importing country. It needs to be approved by an embassy or consular.",
+    "options": {
+      "a": "Documentary credit",
+      "b": "Customs invoice",
+      "c": "Pro forma invoice",
+      "d": "Consular invoice (hóa đơn lãnh sự)"
+    }
+  },
+  {
+    "id": "Câu 17",
+    "text": "___________ refers to goods kept in store to cover unforeseen shortages or fluctuations in demand. (hàng tồn kho đệm; lượng hàng không nằm trong kế hoạch tiêu thụ ban đầu, nhưng được dự trữ sử dụng trong trường hợp khẩn cấp.)",
+    "options": {
+      "a": "Buffer stock",
+      "b": "Buffet stock",
+      "c": "Buffer store",
+      "d": "Buffet storage"
+    }
+  },
+  {
+    "id": "Câu 18",
+    "text": "___________ is a place at the side of a building where goods are put onto and taken from vehicles to be brought inside the warehouse.",
+    "options": {
+      "a": "Marshalling area",
+      "b": "Sortation area",
+      "c": "Collation area",
+      "d": "Unloading bay (Khu vực dỡ hàng hoá ra khỏi (tàu, xe, container,…))"
+    }
+  },
+  {
+    "id": "Câu 19",
+    "text": "___________ is a large cylindrical (hình trụ) or curved container with a flat bottom and top. It is made of wood or metal and is used for liquids (thùng áp dụng cho các hàng hóa như dầu, hóa chất).",
+    "options": {
+      "a": "Bale",
+      "b": "Crate",
+      "c": "Barrel",
+      "d": "Sack"
+    }
+  },
+  {
+    "id": "Câu 20",
+    "text": "___________ is the area of logistics that involves managing the flow of finished products and information to business buyers and ultimate consumers.",
+    "options": {
+      "a": "Outbound logistics (Logistic đầu ra)",
+      "b": "Reverse logistics",
+      "c": "Inbound logistics",
+      "d": "Returns logistics"
+    }
+  },
+  {
+    "id": "Câu 21",
+    "text": "The purchase price of a product that excludes transport costs is defined as ___________. (Định giá tại cổng nhà máy là một phương pháp loại bỏ các chi phí vận chuyển không cần thiết).",
+    "options": {
+      "a": "Fixed cost",
+      "b": "Factory gate pricing",
+      "c": "Economies of scale",
+      "d": "Variable cost"
+    }
+  },
+  {
+    "id": "Câu 22",
+    "text": "___________ can be used for delicate cargo and perishables (dễ hư hỏng như rau, hoa quả). It is temperature controlled and is particularly suitable for cargo that needs regulated or cool temperatures.",
+    "options": {
+      "a": "General purpose container",
+      "b": "Thermal",
+      "c": "Open-top container",
+      "d": "Reefer"
+    }
+  },
+  {
+    "id": "Câu 23",
+    "text": "___________ is a standard container frame with a tank fitted inside to ship liquids, for example, foodstuffs or chemicals.",
+    "options": {
+      "a": "Open-top container",
+      "b": "Tanktainer (container bồn)",
+      "c": "Flat-rack container",
+      "d": "Specialized container"
+    }
+  },
+  {
+    "id": "Câu 24",
+    "text": "___________ is an offer for goods or services that follows a request for a quotation made by an official body, e.g. local government.",
+    "options": {
+      "a": "Supply chain",
+      "b": "Economies of scale",
+      "c": "Tender (đấu thầu)",
+      "d": "Procurement"
+    }
+  },
+  {
+    "id": "Câu 25",
+    "text": "___________ transport which is also known as combined transport is the transportation of goods under a single contract, but performed with at least two different modes of transport.",
+    "options": {
+      "a": "Multiple modals",
+      "b": "Accompanied",
+      "c": "Single wagon",
+      "d": "Multimodal"
+    }
+  },
+  {
+    "id": "Câu 26",
+    "text": "___________ is a contract between airline and shipper. It is a shipping document which states the terms and conditions of carriage and is also a receipt for the consignment. (Vận đơn hàng không là chứng từ do người chuyên chở phát hành để xác nhận việc nhận lô hàng để vận chuyển bằng máy bay.)",
+    "options": {
+      "a": "Bill of exchange",
+      "b": "Bill of lading",
+      "c": "Air waybill",
+      "d": "Export licence"
+    }
+  },
+  {
+    "id": "Câu 27",
+    "text": "___________ is the amount that a vehicle or container weighs when it is full of passengers or goods. (Gross Weight là tổng trọng lượng của hàng hóa bao gồm cả bao bì.)",
+    "options": {
+      "a": "Gross weight",
+      "b": "Net weight",
+      "c": "Payload",
+      "d": "Laden weight"
+    }
+  },
+  {
+    "id": "Câu 28",
+    "text": "A mode of shipping when the cargo is not enough to fill up an entire container is abbreviated as ___________.",
+    "options": {
+      "a": "VAS",
+      "b": "EDI",
+      "c": "LCL",
+      "d": "FCL"
+    }
+  },
+  {
+    "id": "Câu 29",
+    "text": "___________ is a small vehicle with two or four wheels that you push or pull to transport large or heavy objects on.",
+    "options": {
+      "a": "Roll-cage pallet",
+      "b": "Pallet",
+      "c": "Trolley",
+      "d": "Tote bin"
+    }
+  },
+  {
+    "id": "Câu 30",
+    "text": "___________ is the weight of a product without its container or package. (Khối lượng của hàng hóa không bao gồm các loại bao bì đóng gói.)",
+    "options": {
+      "a": "Net weight",
+      "b": "Laden",
+      "c": "Unladen",
+      "d": "Payload"
+    }
+  },
+  {
+    "id": "Câu 31",
+    "text": "___________ is the most common form of document that contains specific information regarding the goods shipped and the conditions agreed between buyer and seller.",
+    "options": {
+      "a": "Consular invoice",
+      "b": "Pro forma invoice",
+      "c": "Customs invoice",
+      "d": "Commercial invoice (hóa đơn thương mại)"
+    }
+  },
+  {
+    "id": "Câu 32",
+    "text": "___________ is a lorry, truck or other large vehicle used to transport cargo with a total weight of at least 3.5 tonnes.",
+    "options": {
+      "a": "FCL",
+      "b": "HGV",
+      "c": "HTV",
+      "d": "LCL"
+    }
+  },
+  {
+    "id": "Câu 33",
+    "text": "In the ___________ area, goods are selected in the right quantities ordered by the customer.",
+    "options": {
+      "a": "Receiving",
+      "b": "Collation",
+      "c": "Marshalling",
+      "d": "Order picking (lấy hàng)"
+    }
+  },
+  {
+    "id": "Câu 34",
+    "text": "___________ indicates products that have similar characteristics regarding their selling profile are categorized into 'families'.",
+    "options": {
+      "a": "DSD-Direct store delivery",
+      "b": "CRP-Continuous replenishment",
+      "c": "CM-category management (quản lí danh mục)",
+      "d": "VMI-Vendor Managed Inventory"
+    }
+  },
+  {
+    "id": "Câu 35",
+    "text": "___________ means real-time demand which is identified by an electronic cash register and the product movement is coordinated from supplier to the retail store.",
+    "options": {
+      "a": "QR-quick response",
+      "b": "VMI-Vendor Managed Inventory",
+      "c": "DSD-Direct store delivery",
+      "d": "CRP-Continuous replenishment"
+    }
+  },
+  {
+    "id": "Câu 36",
+    "text": "___________ is used for bulky cargo. It comes with a PVC tarpaulin cover instead of a roof panel to allow loading from the top. The doors can be removed to make loading easier.",
+    "options": {
+      "a": "Open-top container",
+      "b": "Specialized container",
+      "c": "Tanktainer",
+      "d": "Flat-rack container"
+    }
+  },
+  {
+    "id": "Câu 37",
+    "text": "___________ is the process of identifying items on a conveyor system and diverting them to specific destinations.",
+    "options": {
+      "a": "Collation",
+      "b": "Order picking",
+      "c": "Break bulking",
+      "d": "Sortation"
+    }
+  },
+  {
+    "id": "Câu 38",
+    "text": "___________ has a flat bottom, used for carrying goods and people on canals and rivers.",
+    "options": {
+      "a": "Swap-body",
+      "b": "Road-railer trailer",
+      "c": "River barge",
+      "d": "Container ship"
+    }
+  },
+  {
+    "id": "Câu 39",
+    "text": "___________ is especially designed for heavy loads such as heavy machinery and pipes.",
+    "options": {
+      "a": "Specialized container",
+      "b": "Tanktainer",
+      "c": "Flat-track container",
+      "d": "Flat-rack container"
+    }
+  },
+  {
+    "id": "Câu 40",
+    "text": "___________ is a document used in foreign trade which states where the goods were produced. It is often required by customs authorities.",
+    "options": {
+      "a": "Pro forma invoice",
+      "b": "Certificate of origin",
+      "c": "Customs invoice",
+      "d": "Consular invoice"
+    }
+  },
+  {
+    "id": "Câu 41",
+    "text": "___________ is a wooden box made of wooden slats. It can be open or closed and is used for packing goods.",
+    "options": {
+      "a": "Barrel",
+      "b": "Sack",
+      "c": "Crate",
+      "d": "Bale"
+    }
+  },
+  {
+    "id": "Câu 42",
+    "text": "___________ is a draft invoice which the seller prepares before the actual shipment takes place.",
+    "options": {
+      "a": "Commercial invoice",
+      "b": "Customs invoice",
+      "c": "Pro forma invoice",
+      "d": "Consular invoice"
+    }
+  },
+  {
+    "id": "Câu 43",
+    "text": "___________ is a portable plastic box with a lid and handle used for storage and handling of parts or materials.",
+    "options": {
+      "a": "Tote bin",
+      "b": "Intermediate bulk container",
+      "c": "Trolley",
+      "d": "Roll-cage pallet"
+    }
+  },
+  {
+    "id": "Câu 44",
+    "text": "In the ___________ area, products are packed into cartons or cases or wrapped using stretch-wrapping or shrink-wrapping.",
+    "options": {
+      "a": "Receiving",
+      "b": "Collation",
+      "c": "Sortation",
+      "d": "Marshalling"
+    }
+  },
+  {
+    "id": "Câu 45",
+    "text": "One of the planning techniques which is similar to CRP is called ___________. It is often used for products that need to be supplied frequently and in small batch sizes.",
+    "options": {
+      "a": "QR-quick response",
+      "b": "CRP-Continuous replenishment",
+      "c": "VMI-Vendor Managed Inventory",
+      "d": "DSD-Direct store delivery"
+    }
+  },
+  {
+    "id": "Câu 46",
+    "text": "___________ refers to the method in which the buyer is given documents when a payment is made to the bank.",
+    "options": {
+      "a": "Documentary credit",
+      "b": "Documents against payment (D/P)",
+      "c": "Letter of credit (L/C)",
+      "d": "Consular invoice"
+    }
+  },
+  {
+    "id": "Câu 47",
+    "text": "___________ is a container for dry cargo. It comes with a timber floor and has various lashing devices to secure the load.",
+    "options": {
+      "a": "Refrigerated container",
+      "b": "General purpose container",
+      "c": "Specialized container",
+      "d": "Open-top container"
+    }
+  },
+  {
+    "id": "Câu 48",
+    "text": "___________ is the time it takes to produce and supply a product.",
+    "options": {
+      "a": "Lead time",
+      "b": "Customer order cycle time",
+      "c": "Leed time",
+      "d": "Order time"
+    }
+  },
+  {
+    "id": "Câu 49",
+    "text": "___________ is a document which is granted by a government authority and states that specified goods can be exported.",
+    "options": {
+      "a": "Customs invoice",
+      "b": "Air waybill",
+      "c": "Bill of exchange",
+      "d": "Export licence"
+    }
+  },
+  {
+    "id": "Câu 50",
+    "text": "___________ is a jack or pump used to lift and move pallets.",
+    "options": {
+      "a": "Pallet",
+      "b": "Hand pallet-truck",
+      "c": "Roll-cage pallet",
+      "d": "Forklift"
+    }
+  },
+  {
+    "id": "Câu 51",
+    "text": "___________ is a planning technique which refers to a concept of reducing inventories by coordinating the delivery of materials just before they are needed.",
+    "options": {
+      "a": "DSD",
+      "b": "JIT",
+      "c": "VMI",
+      "d": "CRP"
+    }
+  },
+  {
+    "id": "Câu 52",
+    "text": "___________ is industrial-grade containers engineered for the mass handling, transport, and storage of liquids, semi-solids, pastes, or solids.",
+    "options": {
+      "a": "Roll-cage pallet",
+      "b": "Cask",
+      "c": "Barrel",
+      "d": "IBC (Intermediate bulk container)"
+    }
+  },
+  {
+    "id": "Câu 53",
+    "text": "___________ is a highway trailer, or semi-trailer, that is specially equipped for use in railroad intermodal service.",
+    "options": {
+      "a": "Reefer",
+      "b": "ISO container",
+      "c": "Road-railer trailer",
+      "d": "Swap-body"
+    }
+  },
+  {
+    "id": "Câu 54",
+    "text": "The weight of an empty vehicle or container, which is sometimes called unladen weight, is ___________.",
+    "options": {
+      "a": "Tare weight",
+      "b": "Laden",
+      "c": "Payload",
+      "d": "Net weight"
+    }
+  },
+  {
+    "id": "Câu 55",
+    "text": "___________ is a contract between carrier and shipper which specifies the goods to be shipped and the delivery terms. It is also a receipt of shipment and accompanies the goods until they reach their destination.",
+    "options": {
+      "a": "D/P Documents against payment",
+      "b": "Bill of lading",
+      "c": "Cash on delivery",
+      "d": "Commercial invoice"
+    }
+  },
+  {
+    "id": "Câu 56",
+    "text": "___________ is one type of containers which has 4 up-folding legs under their frame make it possible to change, or swap, their body from one carriage to another. It is not stackable, and must be lifted by the bottom frame.",
+    "options": {
+      "a": "Flat-rack container",
+      "b": "Swap-body",
+      "c": "Reefer",
+      "d": "Open-top container"
+    }
+  },
+  {
+    "id": "Câu 57",
+    "text": "The amount of goods or people that a vehicle, such as a truck or aircraft, can carry is referred to as ___________.",
+    "options": {
+      "a": "Tare weight",
+      "b": "Net weight",
+      "c": "Gross weight",
+      "d": "Payload"
+    }
+  },
+  {
+    "id": "Câu 58",
+    "text": "___________ freight is the transport of wheeled freight without the driver and cab. Essentially, the freight vehicle is left at the quayside at the port by a driver.",
+    "options": {
+      "a": "Road-railer trailer",
+      "b": "Unaccompanied",
+      "c": "Accompanied",
+      "d": "Piggyback"
+    }
+  },
+  {
+    "id": "Câu 59",
+    "text": "___________ are mobile cages, used as a convenient method of moving and transporting a whole variety of goods and products, efficiently and safely within a warehouse environment or between various destinations.",
+    "options": {
+      "a": "Hand-pallet truck",
+      "b": "Fork hoist",
+      "c": "Roll-cage pallet",
+      "d": "Pallet cage"
+    }
+  },
+  {
+    "id": "Câu 60",
+    "text": "A grasping device which has hinged tines or jaws that close around an object or load, used especially in lifting or dragging heavy items is called ___________.",
+    "options": {
+      "a": "Lashing device",
+      "b": "Grappler lift",
+      "c": "Gantry crane",
+      "d": "Reach stacker"
+    }
+  }
+]
